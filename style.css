@@ -146,3 +146,50 @@ h2 {
     margin-bottom: 0;
   }
 }
+
+
+/* Insights Section */
+.insights {
+  background-color: #0b0b0b;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.insights h1 {
+  color: #d4af37;
+  margin-bottom: 40px;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.article,
+.featured-article {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.article h3,
+.featured-article h2 {
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.article p,
+.featured-article p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Responsive grid */
+@media (min-width: 768px) {
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
