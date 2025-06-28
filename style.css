@@ -1,3 +1,67 @@
+/* Projects Section */
+.projects {
+  background-color: #0b0b0b;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.projects h1 {
+  color: #d4af37;
+  margin-bottom: 50px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.project-card h2 {
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  margin-bottom: 15px;
+}
+
+.project-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-card ul li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* Responsive Grid */
+@media (min-width: 768px) {
+  .project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /* Fade-in Animation */
 .fade-in {
