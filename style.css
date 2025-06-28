@@ -293,3 +293,29 @@ h2 {
     gap: 10px;
   }
 }
+
+
+/* Site Footer */
+.site-footer {
+  background-color: #0b0b0b;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid #1a1a1a;
+}
+
+.site-footer p {
+  margin-bottom: 10px;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  color: #d4af37;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
